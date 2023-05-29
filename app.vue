@@ -6,7 +6,7 @@
     <div class="z-10 flex flex-col items-center">
       <img src="./assets/logo.png" class="max-w-[40%]" />
       <p class="text-white text-6xl font-roboto font-light">
-        SITE EN <span class="text-[#FF0E1C]">CONSTRUCCIÓN</span>
+        SITE EN <span class="text-[#FF0E1C]">CONSTRUCCIÓN</span> ...
       </p>
     </div>
   </div>
