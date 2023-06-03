@@ -7,4 +7,9 @@ export default defineNuxtConfig({
       },
     },
   },
+  runtimeConfig: {
+    public: {
+      forwardEmailApiKey: process.env.FORWARD_EMAIL_API_KEY,
+    },
+  },
 });
