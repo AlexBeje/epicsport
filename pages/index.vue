@@ -10,9 +10,9 @@
       >
         <span>SITE EN</span><span class="text-[#FF0E1C]">CONSTRUCCIÓN</span>
       </p>
-      <div class="bg-white mt-16 hidden">
-        <Contact />
-      </div>
+      <Button class="mt-10 hidden">Quiero apuntarme</Button>
     </div>
   </div>
 </template>
+
+<script setup lang="ts"></script>

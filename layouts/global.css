@@ -1,7 +1,12 @@
 @font-face {
   font-family: "Roboto";
-  font-weight: 200;
-  src: local("Roboto"), url(~/assets/Roboto/Roboto-Thin.ttf) format("truetype");
+  font-weight: 100;
+  src: local("Roboto"), url(~/assets/Roboto/Roboto-thin.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  font-weight: 300;
+  src: local("Roboto"), url(~/assets/Roboto/Roboto-Light.ttf) format("truetype");
 }
 @font-face {
   font-family: "Roboto";

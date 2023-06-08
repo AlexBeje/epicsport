@@ -9,7 +9,7 @@
         class="bg-black text-white p-2"
         @keyup.enter="sendEmail"
       />
-      <Button @click="sendEmail" withPadding>Send</Button>
+      <button @click="sendEmail" withPadding>Send</button>
     </div>
   </div>
 </template>
