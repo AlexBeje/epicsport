@@ -1,15 +1,9 @@
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/google-fonts"],
-  googleFonts: {
-    families: {
-      Roboto: {
-        wght: [100, 400],
-      },
-    },
-  },
+  modules: ["@nuxtjs/tailwindcss"],
   runtimeConfig: {
     public: {
       forwardEmailApiKey: process.env.FORWARD_EMAIL_API_KEY,
     },
   },
+  css: ["~/layouts/global.css"],
 });
