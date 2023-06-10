@@ -1,15 +1,15 @@
 <template>
-  <div class="h-full w-full items-center flex justify-center p-4 rounded-3xl">
+  <div class="flex h-full w-full items-center justify-center rounded-3xl p-4">
     <p v-if="loading">Loading ...</p>
-    <div v-else class="flex flex-col gap-6 items-center">
-      <p v-if="emailSent" class="text-2xl -mb-2">{{ emailSent }}</p>
+    <div v-else class="flex flex-col items-center gap-6">
+      <p v-if="emailSent" class="-mb-2 text-2xl">{{ emailSent }}</p>
       <input
-        type="text"
         v-model="email"
-        class="bg-black text-white p-2"
+        type="text"
+        class="bg-black p-2 text-white"
         @keyup.enter="sendEmail"
       />
-      <button @click="sendEmail" withPadding>Send</button>
+      <button withPadding @click="sendEmail">Send</button>
     </div>
   </div>
 </template>
@@ -33,7 +33,7 @@ const sendEmail = async () => {
   data.append("text", `${email.value}`);
 
   loading.value = true;
-  fetch(url, {
+  await fetch(url, {
     method: "POST",
     headers: {
       Authorization: `Basic ${btoa(`${apiKey}:`)}`,

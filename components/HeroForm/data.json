@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "title": "¡Bienvenido!",
+    "content": "Agradecemos tu interés en formar parte de nuestro gimnasio. Para poder brindarte un servicio personalizado y adaptado a tus necesidades, te pedimos que por favor nos proporciones la siguiente información.",
+    "buttons": [
+      {
+        "id": 1,
+        "label": "Siguiente",
+        "type": "primary"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Edad",
+    "content": "Por favor, indícanos la edad actual de la persona interesada. Esta información es importante para poder personalizar y adaptar nuestros servicios a tus necesidades específicas.",
+    "buttons": [
+      {
+        "id": 1,
+        "label": "Menos de 14",
+        "type": "primary"
+      },
+      {
+        "id": 2,
+        "label": "Más de 14",
+        "type": "primary"
+      }
+    ]
+  }
+]

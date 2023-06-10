@@ -1,0 +1,17 @@
+{
+  "tailwindCSS.experimental.configFile": "./tailwind.config.ts",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript",
+    "css": "css",
+    "vue": "vue"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "eslint.debug": true,
+  "eslint.workingDirectories": [{ "mode": "auto" }]
+}
