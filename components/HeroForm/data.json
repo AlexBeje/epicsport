@@ -25,6 +25,11 @@
         "id": 2,
         "label": "Más de 14",
         "type": "primary"
+      },
+      {
+        "id": 3,
+        "label": "Pensionista",
+        "type": "primary"
       }
     ]
   }

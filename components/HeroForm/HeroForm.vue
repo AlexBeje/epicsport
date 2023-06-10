@@ -13,7 +13,7 @@
           class="relative w-10/12 md:ml-8 md:min-h-[500px] md:flex-1"
         >
           <div
-            class="absolute h-full w-full rounded-bl-xl rounded-br-xl bg-[#FF0004]/75 md:rounded-br-none md:rounded-tl-xl"
+            class="absolute h-full w-full rounded-bl-xl rounded-br-xl bg-[#FF0004]/50 md:rounded-br-none md:rounded-tl-xl"
           />
           <div
             class="hidden h-full w-full bg-cover bg-top md:block md:rounded-bl-xl md:rounded-tl-xl"
@@ -40,7 +40,7 @@
           >
             <h1 class="text-4xl font-light">{{ title }}</h1>
             <p class="font-thin">{{ content }}</p>
-            <div class="flex gap-4">
+            <div class="flex flex-wrap gap-3 md:gap-4">
               <Button
                 v-for="button in buttons"
                 :key="button.id"
