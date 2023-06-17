@@ -7,7 +7,8 @@
       {
         "id": 1,
         "label": "Siguiente",
-        "type": "primary"
+        "type": "primary",
+        "step": 2
       }
     ]
   },
@@ -19,17 +20,106 @@
       {
         "id": 1,
         "label": "Menos de 14",
-        "type": "primary"
+        "type": "primary",
+        "step": 3,
+        "updatePrice": -10
       },
       {
         "id": 2,
         "label": "Más de 14",
-        "type": "primary"
+        "type": "primary",
+        "step": 3
       },
       {
         "id": 3,
         "label": "Pensionista",
-        "type": "primary"
+        "type": "primary",
+        "step": 3
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Actividades",
+    "content": "Indica el tipo de actividad que vas a realizar dentro del gimnasio. Esto nos ayudará a entender tus preferencias y objetivos de entrenamiento, para poder brindarte la mejor experiencia posible.",
+    "buttons": [
+      {
+        "id": 1,
+        "label": "Pesas",
+        "type": "secondary",
+        "step": 4
+      },
+      {
+        "id": 2,
+        "label": "Artes marciales",
+        "type": "secondary",
+        "step": 4
+      },
+      {
+        "id": 3,
+        "label": "Clases dirigidas",
+        "type": "secondary",
+        "step": 4
+      },
+      {
+        "id": 4,
+        "label": "Todas las actividades",
+        "type": "primary",
+        "step": 4
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Familiares / Parejas",
+    "content": "Indica si vas a entrenar solo o si estarás acompañado/a durante tus sesiones en el gimnasio. Esto nos ayudará a comprender tus preferencias y necesidades para brindarte una experiencia adecuada.",
+    "buttons": [
+      {
+        "id": 1,
+        "label": "Entrenare solo",
+        "type": "secondary",
+        "step": 5
+      },
+      {
+        "id": 2,
+        "label": "Entrenar acompañado",
+        "type": "primary",
+        "step": 5
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Clases particulares",
+    "content": "Indica si necesitarás clases particulares adicionales para complementar tu entrenamiento. Las clases personales son una opción ideal si buscas una atención más individualizada, asesoramiento personalizado y una programación de ejercicios específica para alcanzar tus objetivos.",
+    "buttons": [
+      {
+        "id": 1,
+        "label": "No estoy interesado",
+        "type": "secondary",
+        "step": 6
+      },
+      {
+        "id": 2,
+        "label": "Me interesa",
+        "type": "primary",
+        "step": 6
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Cuota mensual"
+  },
+  {
+    "id": 7,
+    "title": "Preguntas",
+    "buttons": [
+      {
+        "id": 1,
+        "label": "Enviar",
+        "type": "primary",
+        "step": 0
       }
     ]
   }
