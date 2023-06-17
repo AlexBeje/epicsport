@@ -19,12 +19,12 @@
             <div
               class="absolute h-full w-full rounded-bl-xl rounded-br-xl bg-[#FF0004]/50 md:rounded-br-none md:rounded-tl-xl"
             />
-            <div
+            <!-- <div
               class="hidden h-full w-full bg-cover bg-top md:block md:rounded-bl-xl md:rounded-tl-xl"
               :style="`background-image: url(${'/images/' + id + '.png'});`"
-            />
-            <img
-              class="rounded-bl-xl rounded-br-xl md:hidden"
+            /> -->
+            <nuxt-img
+              class="rounded-bl-xl rounded-br-xl md:rounded-tl-xl"
               :src="'/images/' + id + '.png'"
             />
           </div>
